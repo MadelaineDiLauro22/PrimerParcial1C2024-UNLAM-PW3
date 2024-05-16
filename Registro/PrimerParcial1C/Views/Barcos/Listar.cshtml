@@ -1,0 +1,32 @@
+
+@model List<BarcoModel>
+
+@{
+    Layout = "_AduanaLayout";
+}
+
+<h2>Listado de Barcos</h2>
+
+<table class="table table-striped mt-4">
+    <thead>
+        <tr>
+            <th>#IdBarco</th>
+            <th>Nombre</th>
+            <th>Antiguedad</th>
+            <th>Tripulación Máxima</th>
+            <th>Tasa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var barco in Model)
+        {
+            <tr>
+                <td>@barco.iD</td>
+                <td>@barco.nombre</td>
+                <td>@barco.antiguedad</td>
+                <td>@barco.tripulacionMaxima</td>
+                <td>@barco.tasa</td>
+            </tr>
+        }
+    </tbody>
+</table>

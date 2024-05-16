@@ -1,0 +1,48 @@
+﻿@model BarcoModel
+
+@{
+    Layout = "_AduanaLayout";
+}
+
+<style>
+    
+    .form-container {
+        background-color: #808080;
+        border: 2px solid #ccc; 
+        border-radius: 10px; 
+        padding: 20px;
+        margin: 0 auto; 
+        max-width: 500px; 
+    }
+    label{
+        color: black;
+    }
+</style>
+
+<h2 class="mt-4 text-center">Registrar Barco</h2>
+
+<div class="form-container mt-4">
+    <form asp-action="Registrar" method="post">
+        <div class="form-group">
+            <label for="nombre" class="fw-bold">Nombre:</label>
+            <input type="text" asp-for="nombre" class="form-control bg-white" />
+            <span asp-validation-for="nombre" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="antiguedad" class="fw-bold">Antigüedad:</label>
+            <input type="number" asp-for="antiguedad" class="form-control bg-white" />
+            <span asp-validation-for="antiguedad" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="tripulacionMaxima" class="fw-bold">Tripulación Máxima:</label>
+            <input type="number" asp-for="tripulacionMaxima" class="form-control bg-white" />
+            <span asp-validation-for="tripulacionMaxima" class="text-danger"></span>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary text-center">Registrar</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

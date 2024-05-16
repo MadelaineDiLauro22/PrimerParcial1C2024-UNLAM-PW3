@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PrimerParcial1C
+build_property.RootNamespace = PrimerParcial1C
+build_property.ProjectDir = C:\Users\USER\OneDrive\Documentos\UNLaM\ProgramacionWebIII\PrimerPacial\PrimerParcial1C2024-UNLAM-PW3\Registro\PrimerParcial1C\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USER\OneDrive\Documentos\UNLaM\ProgramacionWebIII\PrimerPacial\PrimerParcial1C2024-UNLAM-PW3\Registro\PrimerParcial1C
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Barcos/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyY29zXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Barcos/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyY29zXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Inicio/Bienvenida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEJpZW52ZW5pZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Inicio/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/OneDrive/Documentos/UNLaM/ProgramacionWebIII/PrimerPacial/PrimerParcial1C2024-UNLAM-PW3/Registro/PrimerParcial1C/Views/Shared/_AduanaLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZHVhbmFMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hm07ro523j

@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RegistraTusBarcos.com</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PrimerParcialPractica.styles.css" asp-append-version="true" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsBY/nIhxH3FGBhy5lFN9BvC+oi34kepN4kG4/yD6SL5UOUp2yzl7LRSqNcDohxr" crossorigin="anonymous">
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: 400px; 
+            object-fit: cover; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Inicio" asp-action="Bienvenida">Aduana</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Inicio" asp-action="Bienvenida">Bienvenida</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Barcos" asp-action="Registrar">Registrar Barcos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Barcos" asp-action="Listar">Listado Barcos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+            @if (!(ViewContext.RouteData.Values["controller"].ToString() == "Barcos" &&
+            (ViewContext.RouteData.Values["action"].ToString() == "Registrar" ||
+            ViewContext.RouteData.Values["action"].ToString() == "Listar")))
+            {
+            
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://probarcos.com/media/tipos-de-barcos/yate-puerto.jpg" class="d-block img-fluid" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://content.boats.com/files/Tipos-de-yates.jpg" class="d-block w-100" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://alquilerdeyatesenibiza.com/wp-content/uploads/2021/08/CHAMPAGNE-SEAS4-1024x576.jpg" class="d-block w-100" alt="...">
+                    </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lalr.co/cms/2015/11/10223557/yates_0.jpg?size=xl&ratio=r40_21" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.yate.co/img/blog/2023/19/yate-stella-oxa.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.barcoibiza.com/wp-content/uploads/2020/04/Astondoa-102-Kirios-Super-Yacht-Ibiza-08-Puesto-de-Mando-1-650x350.jpg" class="d-block w-100" alt="...">
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            }
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            Di Lauro Madelaine - DNI: 42.093.986
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min</script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+
+$('#carouselExampleIndicators').on('slid.bs.carousel', function () {
+    if ($('.carousel-item:last').hasClass('active')) {
+        $('.carousel-control-next').click();
+    }
+});
+
+    </script>
+</body>
+</html>
